@@ -1,0 +1,24 @@
+[app/ui]
+version = 9.0.4
+modtime = 1677039623.649788000
+
+[app/launcher]
+version = 9.0.4
+modtime = 1677039623.650665000
+
+[indexes/monigram]
+owner = admin
+version = 9.0.4
+modtime = 1677044773.817229000
+
+[inputs/http%3A%2F%2Fmonigram]
+access = read : [ admin ], write : [ admin ]
+export = none
+owner = admin
+version = 9.0.4
+modtime = 1677062402.130400000
+
+[views/monigram]
+owner = admin
+version = 9.0.4
+modtime = 1677154739.183596000
