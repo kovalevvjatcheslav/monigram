@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "monigram"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.2"
+aiohttp = "^3.8.4"
+telethon = "^1.27.0"
+pydantic = "^1.10.5"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 101

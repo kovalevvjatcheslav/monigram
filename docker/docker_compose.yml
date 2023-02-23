@@ -1,0 +1,15 @@
+services:
+
+  splunk:
+    image: splunk/splunk:9.0.4
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    restart: always
+
+  monigram:
+    image: monigram
+    env_file:
+      - .env
+      - private.env
